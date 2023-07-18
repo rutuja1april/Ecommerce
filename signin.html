@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="header">
+     <a href="#"><img src="image/logo/logo1.png" class="logo" height="150px" alt=""></a>
+
+     <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active"href="signin.html">Sign-In</a></li>
+            <li id="lg-cart"><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+            <a href="#" id="close"><i class="fa fa-times"></i></a>
+
+        </ul>
+     </div>
+     <div id="mobile">
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+        <i id="bar" class="fa fa-outdent "></i>
+     </div>
+    </section>
+
+<section>
+    <div class="container">
+        <div class="apply_box">
+            <h2>Become <abbr title="Outfit of the day">OOTD</abbr> Insider
+            </h2>
+            <form action="">
+                <div class="form_container">
+        <!-- for first name -->
+                <div class="form_control">
+                    <label for="first_name">First Name</label>
+                    <input 
+                    id="first_name"
+                    name="first_name"
+                    placeholder="Enter First Name...." required>
+                </div>
+    
+    <!-- last name  -->
+                <div class="form_control">
+                    <label for="last_name">Last Name</label>              
+                 <input 
+                    id="last_name"
+                    name="last_name" 
+                    placeholder="Enter last Name....." required>
+                </div>
+    
+     <!-- for gender  -->
+     <div>
+        
+          <label for="rdbGender">Gender:</label>     
+          <input type="radio" name="rdbGender" id="rdbGender" value="m"/>Male 
+          <input type="radio" name="rdbGender" id="rdbGender" value="f"/>Female 
+          <input type="radio" name="rdbGender" id="rdbGender" value="o"/>Other 
+          
+                  </div>
+                 
+      <!-- email id           --> 
+                <div class="form_control">
+                    <label for="email">Email</label>              
+                 <input 
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Enter Email..." required>
+                </div>
+        
+        <!-- for contact number -->
+        <div class="form_control">
+            <label for="contact">Contact No.</label>              
+         <input 
+            id="contact"
+            type="contact"
+            name="contact"
+            placeholder="Enter contact..." required>
+        </div>
+    <!-- for password -->
+    <div class="form_control">
+        <label for="txtpassword">Password:</label>
+        <input type="password" name="txtpassword" id="txtpassword" value=""/>
+    </div>
+    
+     <!-- for address     -->
+            <div class="form_control">
+                <label for="address">Address</label>              
+             <textarea 
+             name="address" 
+             id="address"
+              cols="20" 
+              rows="2"
+              placeholder="address" required></textarea>
+             </div>
+        <!-- for city      -->
+             <div class="form_control">
+                <label for="city">City</label>              
+                <select name="city" id="city">
+             <option value="">Select City</option>       
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="bengaluru">Bengaluru</option>
+        </select>
+            </div>
+       <!-- for pincode       -->
+            <div class="form_control">
+                <label for="pincode">Pincode</label>              
+             <input 
+             type="number"
+                id="pincode"
+                name="pincode"
+                placeholder="Enter Pincode..." required>
+            </div>
+    <!-- for date  -->
+            <div class="form_control">
+                <label for="date">Date Of Birth</label>              
+             <input 
+             type="date"
+                id="date"
+                name="date" required>
+            </div>
+    
+    <!-- for clear button 
+    <div class="button_container">
+        <button type="clear">Clear</button>
+    </div> -->
+    <!-- for submit button  -->
+    <div class="submit_button">
+        <input type="submit" class="submit_button" value="Submit">
+    </div>
+    </div>
+    </form>
+        </div>
+        </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="image/logo/logo1.png" height="100px" alt="">
+        <h4>Contact</h4>
+        <p class="p2"> <strong>Address:</strong> 12 ,15 street, New Dehli </p>
+        <p class="p2"><strong>Phone:</strong>+09 3287 557 / (+91) 02 2356 5689</p>
+        <p class="p2"><strong>Hours:</strong>10:00 - 19:00, Mon- Fri</p>
+        <div class="follow">
+            <h4>Follow us </h4>
+            <div class="icon">
+              <i class="fa fa-facebook-f"></i>
+              <i class="fa fa-twitter"></i> 
+              <i class="fa fa-instagram"></i> 
+              <i class="fa fa-pinterest-p"></i> 
+              <i class="fa fa-youtube"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="contact.html">Contact Us</a>
+
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="signin.html">Sign In</a>
+        <a href="cart.html">View Carts</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+
+    </div>
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img class="logo" src="image/pay/app.jpg" alt="">
+            <img src="image/pay/play.jpg" alt="">
+        </div>
+        <p class="p2">Secured Payment Gateways</p>
+        <img src="image/pay/pay.png" alt="">
+    </div>
+    <div class="copyright">
+        <p class="p2">0 2021, tech2 etc - HTML CSS Ecommerce Templates</p>
+    </div>
+
+</footer>
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
